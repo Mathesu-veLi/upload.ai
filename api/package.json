@@ -1,0 +1,30 @@
+{
+  "name": "upload.ai-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "prisma": {
+    "seed": "tsx prisma/seed.ts"
+  },
+  "scripts": {
+    "dev": "tsx watch src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.11.6",
+    "prisma": "^5.8.1",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@fastify/cors": "^8.5.0",
+    "@fastify/multipart": "^8.1.0",
+    "@prisma/client": "5.8.1",
+    "ai": "^2.2.31",
+    "fastify": "^4.25.2",
+    "openai": "^4.25.0",
+    "zod": "^3.22.4"
+  }
+}
